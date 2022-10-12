@@ -3,8 +3,8 @@ A watchface that's goal is to show the user everything they need in one face. Th
 Link to app (Not out yet): [Fitbit](https://google.com)
 
 ###Issues while created the app:
-1. More than 3 svg masks will not work at all. Masking will tend to not work at all some times or blinking. Better to use [this](https://onlinepngtools.com/change-png-color) to change colors.
-2. Heart image disappeared randomly while at the bottom of the html (possibly because of animations). Fixed by putting the html code at the top.
+1. More than 3 svg masks will not work at all. Masking will tend to not work at all sometimes or it will spaz, better to use [this](https://onlinepngtools.com/change-png-color) to change colors and use the original image.
+2. Heart image disappeared randomly while at the bottom of the html (possibly because of animation). Fixed by putting the html code at the top.
 3. Outdated css, html, and svg caused a few issues while creating the app.
 
 Creating a second watch face similar to this one soon!
