@@ -18,6 +18,7 @@
       <arc class="heart_arc" id="peak_arc" fill="red" arc-width="6" start-angle="90" sweep-angle="90"/>
     </svg>
     <image id="heart_img" href="icons/Heart.png" width="36" height="36" x="-18" y="-17">
+      <animate repeatCount="indefinite" attributeName="opacity" begin="enable" from="1" to=".25" dur=".75" final="remove"/>
     </image>
     <text class="text" id="heart_text" text-anchor="middle" y="-40" font-size="20" text-length="50" fill="white"></text>
   </svg>
