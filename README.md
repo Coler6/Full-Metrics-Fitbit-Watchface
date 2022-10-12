@@ -1,5 +1,6 @@
 # Full-Metrics-Fitbit-Watchface
-A watchface that's goal is to show the user everything they need in one face. This is my first Fitbit project.. bugs are expected. Please create a github issue incase you do encouter any bugs if you do not know how to use github please email me at tylerkrebs77@gmail.com! This project is tested using the Fitbit Simulator and a Fitbit Versa 3.
+A watchface that's goal is to show the user everything they need in one face. This is my first Fitbit project.. bugs are expected. Please create a github issue incase you do encounter any bugs if you do not know how to use github please email me at tylerkrebs77@gmail.com! This project is tested using the Fitbit Simulator and a Fitbit Versa 3.
+
 Link to app (Not out yet): [Fitbit](https://google.com)
 
 ### Issues while created the app:
