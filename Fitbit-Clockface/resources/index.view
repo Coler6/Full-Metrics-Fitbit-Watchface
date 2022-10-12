@@ -1,0 +1,59 @@
+<svg class="background">
+  <text class="text" id="time" x="50%" y="50%+30"></text>
+  <text class="text" id="date" x="50%" y="20"></text>
+  <symbol id="zone_shape">
+    <rect width="27" height="27"/>
+    <rect x="33" y="33" width="30" height="30"/>
+    <rect y="33" width="27" height="30"/>
+    <rect x="33" width="30" height="27"/>
+  </symbol>
+  <mask id="zone_mask">
+    <use href="#zone_shape"/>
+  </mask>
+  <svg id="heart" class="circular" x="75%" y="50%-80">
+    <svg mask="#zone_mask" x="-30" y="-30">
+      <arc class="heart_arc" id="resting_arc" fill="blue" arc-width="6" start-angle="180" sweep-angle="90"/>
+      <arc class="heart_arc" id="fat_burn_arc" fill="yellow" arc-width="6" start-angle="270" sweep-angle="90"/>
+      <arc class="heart_arc" id="cardio_arc" fill="orange" arc-width="6" start-angle="360" sweep-angle="90"/>
+      <arc class="heart_arc" id="peak_arc" fill="red" arc-width="6" start-angle="90" sweep-angle="90"/>
+    </svg>
+    <image id="heart_img" href="icons/Heart.png" width="36" height="36" x="-18" y="-17">
+    </image>
+    <text class="text" id="heart_text" text-anchor="middle" y="-40" font-size="20" text-length="50" fill="white"></text>
+  </svg>
+  <mask id="step_mask">
+    <image href="icons/Steps.png" width="40" height="40"/>
+  </mask>
+  <svg id="steps" class="circular" x="50%" y="50%+80">
+    <arc x="-30" y="-30" width="60" height="60" fill="gray" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <arc id="steps_arc" x="-30" y="-30" width="60" height="60" fill="blue" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <svg mask="#step_mask" x="-20" y="-20">
+      <rect height="40" width="40" fill="blue"/>
+    </svg>
+    <text class="text" id="step_text" text-anchor="middle" y="55" font-size="20" text-length="50" fill="white"></text>
+  </svg>
+  <svg id="cal" class="circular" x="25%" y="50%-80">
+    <arc x="-30" y="-30" width="60" height="60" fill="gray" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <arc id="cal_arc" x="-30" y="-30" width="60" height="60" fill="#ff8c00" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <image href="icons/Cal.png" width="34" height="34" load="sync" x="-17" y="-17"/>
+    <text class="text" id="cal_text" text-anchor="middle" y="-40" font-size="20" text-length="50" fill="white"></text>
+  </svg>
+  <svg id="active" class="circular" x="50%" y="50%-80">
+    <arc x="-30" y="-30" width="60" height="60" fill="gray" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <arc id="active_arc" x="-30" y="-30" width="60" height="60" fill="purple" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <image href="icons/Active.png" x="-30" y="-30" width="60" height="60" load="sync"/>
+    <text class="text" id="active_text" text-anchor="middle" y="-40" font-size="20" text-length="50" fill="white"></text>
+  </svg>
+  <svg id="distance" class="circular" x="25%" y="50%+80">
+    <arc x="-30" y="-30" width="60" height="60" fill="gray" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <arc id="distance_arc" x="-30" y="-30" width="60" height="60" fill="red" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <image href="icons/Distance.png" width="90" height="90" x="-45" y="-53"/>
+    <text class="text" id="distance_text" text-anchor="middle" y="55" font-size="20" text-length="50" fill="white"></text>
+  </svg>
+  <svg id="floor" class="circular" x="75%" y="50%+80">
+    <arc x="-30" y="-30" width="60" height="60" fill="gray" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <arc id="floor_arc" x="-30" y="-30" width="60" height="60" fill="yellow" arc-width="6" start-angle="0" sweep-angle="360"/>
+    <image href="icons/Floor.png" width="28" height="28" x="-14" y="-14" load="sync"/>
+    <text class="text" id="floor_text" text-anchor="middle" y="55" font-size="20" text-length="50" fill="white"></text>
+  </svg>
+</svg>

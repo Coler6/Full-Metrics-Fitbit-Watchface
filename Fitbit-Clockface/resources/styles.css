@@ -1,0 +1,27 @@
+.background {
+  viewport-fill: black;
+}
+#time {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 50%;
+  y: 50%+40;
+  fill: white;
+}
+.text {
+  fill: white;
+}
+#date {
+  text-length: 32; 
+  fill: white; 
+  font-size:15; 
+  text-anchor:middle;
+  font-family:Seville;
+}
+.heart_arc {
+  opacity: 0.5;
+  width: 60;
+  height: 60;
+}
