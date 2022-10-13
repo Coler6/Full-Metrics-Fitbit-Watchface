@@ -70,9 +70,11 @@ body.addEventListener("reading", () => {
     no_heart_rate();
   }
 });
-sleep.addEventListener("change", () => {
-   check_sleep();
-});
+if (appbit.permissions.granted("sleep")) {
+  sleep.addEventListener("change", () => {
+     check_sleep();
+  });
+}
 heart_rate.addEventListener("reading", () => {
   update_heart(heart_rate);
 });

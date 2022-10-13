@@ -18,19 +18,14 @@
       <arc class="heart_arc" id="peak_arc" fill="red" arc-width="6" start-angle="90" sweep-angle="90"/>
     </svg>
     <image id="heart_img" href="icons/Heart.png" width="36" height="36" x="-18" y="-17">
-      <animate repeatCount="indefinite" attributeName="opacity" begin="enable" from="1" to=".25" dur=".75" final="remove"/>
+      <animate repeatCount="indefinite" attributeName="opacity" begin="enable" from="1" to=".25" dur=".75" final="remove" />
     </image>
     <text class="text" id="heart_text" text-anchor="middle" y="-40" font-size="20" text-length="50" fill="white"></text>
   </svg>
-  <mask id="step_mask">
-    <image href="icons/Steps.png" width="40" height="40"/>
-  </mask>
   <svg id="steps" class="circular" x="50%" y="50%+80">
     <arc x="-30" y="-30" width="60" height="60" fill="gray" arc-width="6" start-angle="0" sweep-angle="360"/>
     <arc id="steps_arc" x="-30" y="-30" width="60" height="60" fill="blue" arc-width="6" start-angle="0" sweep-angle="360"/>
-    <svg mask="#step_mask" x="-20" y="-20">
-      <rect height="40" width="40" fill="blue"/>
-    </svg>
+    <image href="icons/Steps.png" width="40" height="40" x="-20" y="-20"/>
     <text class="text" id="step_text" text-anchor="middle" y="55" font-size="20" text-length="50" fill="white"></text>
   </svg>
   <svg id="cal" class="circular" x="25%" y="50%-80">
