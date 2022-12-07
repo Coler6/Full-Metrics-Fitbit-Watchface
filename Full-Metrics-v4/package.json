@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.3.0"
+  },
+  "fitbit": {
+    "appUUID": "2c578df0-0434-4fd8-9d26-04c23ef7f96a",
+    "appType": "clockface",
+    "appDisplayName": "Full Metrics",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_sleep",
+      "access_heart_rate",
+      "access_user_profile",
+      "access_activity"
+    ],
+    "buildTargets": [
+      "mira",
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Full Metrics"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
